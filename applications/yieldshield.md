@@ -7,20 +7,23 @@ It's a decentralized, highly capital efficient insurance protocol that uses a tr
 
 <img src="../static/img/yieldshield1.png" alt="YieldShield" width="500"/>
 
-- An indication of how your project relates to / integrates into Polkadot (SDK) / Kusama
-- An indication of why your team is interested in creating this project
+The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot to catch-up when it comes to DeFi. However, Polkadot has very few advantages and incentives at this stage for external teams to bring liquidity to Polkadot. We hope to be able to deploy YieldShiel on the hub and this way offer something unique and ultimatily significantly increase the TVL of Polkadot.   
 
 ### Project Details
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
+- Technology stack: Solidity, Ponder, Next.js 
+- Documentation: https://www.yieldshield.dev/docs/overview 
 - Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations that might not be obvious
+
+<img src="../static/img/ys-ui1.png" alt="YieldShield" width="500"/>
+<img src="../static/img/ys-ui2.png" alt="YieldShield" width="500"/>
+<img src="../static/img/ys-ui3.png" alt="YieldShield" width="500"/>
+<img src="../static/img/ys-ui4.png" alt="YieldShield" width="500"/>
+
+- What your project is *not* or will *not* provide or implement: 
+
 
 ### Ecosystem Fit
 
