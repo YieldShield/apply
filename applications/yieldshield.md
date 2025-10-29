@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-Your savings account is fully insured, you earn a small risk free yield and your bank gets rich. What if you could make high DeFi yields risk free with a decentralized insurance protocol? That's exactly the problem that YieldShield solves. 
-It's a decentralized, highly capital efficient insurance protocol that uses a tranche-based risk allocation. It serves as the DeFi abstraction layer that makes decentralized finance usable for everyone and will disrubt traditional savings accounts. 
+Your savings account is fully insured, you earn a small risk-free yield, and your bank gets rich. What if you could make high DeFi yields risk-free with a decentralized insurance protocol? That's exactly the problem that YieldShield solves. It's a decentralized, highly capital-efficient insurance protocol that uses a tranche-based risk allocation. It serves as the DeFi abstraction layer that makes decentralized finance usable for everyone and will disrupt traditional savings accounts.
 
 <img src="../static/img/yieldshield1.png" alt="YieldShield" width="500"/>
 
