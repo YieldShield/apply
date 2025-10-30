@@ -69,12 +69,13 @@ Please describe the team's relevant experience, such as Polkadot-related project
 
 ## Development Status
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with relevant actors in the ecosystem,
-- previous interface iterations, such as mock-ups and wireframes.
+Academic publications relevant to the problem: 
+- https://www.accenture.com/content/dam/accenture/final/industry/banking/document/Accenture-Global-Banking-Consumer-Study-2025-Report.pdf
+- https://arxiv.org/pdf/2212.10308
+- https://arxiv.org/pdf/2410.09341
+  
+Previous interface iterations, such as mock-ups and wireframes:
+- see the above images
 
 ## Development Roadmap
 
@@ -84,9 +85,9 @@ This section should break the development roadmap down into milestones and deliv
 
 ### Overview
 
-- **Estimated Duration:** Duration of the whole project (e.g. 3 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the grant throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD).
+- **Estimated Duration:** 3 Months
+- **Full-Time Equivalent (FTE):**  2 FTE
+- **Total Costs:** 18,000 USD
 
 > Note that deliverables 0a to 0e are mandatory. Please adapt their specification to your project.
 
@@ -107,7 +108,6 @@ This section should break the development roadmap down into milestones and deliv
  
 - Personnel
 - Equipment
-- Subcontracts/Subscriptions
 
 | Category | Item | Cost | Amount | Total | Description |
 | --- | ---- | --- | --- | --- | ---|
