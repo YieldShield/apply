@@ -28,18 +28,27 @@ YieldShield relies on yield-generating protocols like Morpho, Aave, etc. that ca
 
 - Where and how does your project fit into the ecosystem?
 
-As pointed out above, YieldShield offers Polkadot a decentralized insurance protocol, which is something unique in the DeFi space and will attract additional users. So far, only https://flyingtulip.com/ plans to integrate a [decentralized insurance solution](https://docs.flyingtulip.com/product-suite/ft-insurance/). However, YieldShield has the advantage of not relying on claim assessors or oracles for the claim process and is more capital efficient.    
+As pointed out above, YieldShield offers Polkadot a decentralized insurance protocol, which is something unique in the DeFi space and will attract additional users. So far, only https://flyingtulip.com/ plans to integrate a [decentralized insurance solution](https://docs.flyingtulip.com/product-suite/ft-insurance/). However, YieldShield has the advantage of not relying on centralized claim assessors or oracles for the claim process and is more capital-efficient.    
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-
+Initially, we will target crypto users who are not DeFi degens. Essentially, users who know how to interact with a chain, but don't invest in DeFi vaults and strategies, because they don't understand the underlying risks. In the future, we want to cooperate with wallet providers, crypto neo banks, etc.   
   
 - What need(s) does your project meet?
+
+Reducing the risk that is associated with DeFi. 
+  
 - How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
-- Are there any other projects similar to yours in the Polkadot/Kusama ecosystem? Make sure to at least check the [Polkadot Forum](https://forum.polkadot.network/), the [wiki's Tech Stack doc](https://wiki.polkadot.network/docs/build-open-source) and [OpenGov](https://polkadot.subsquare.io/referenda?status=executed&is_treasury=true).
-  - If so, how is your project different? Please identify and assess any projects addressing the same need and explain how your project is distinct. Feel free to include applicable research data, statistics, or metrics.
-  - If not, please indicate why such a project might not have been possible, successful, or attempted. 
-- Are there any projects similar to yours in related ecosystems? 
+
+- e.g., https://www.accenture.com/content/dam/accenture/final/industry/banking/document/Accenture-Global-Banking-Consumer-Study-2025-Report.pdf. But we have done a lot of research regarding the topic and are happy to share some of our internal research documents. 
+
+- Are there any other projects similar to yours in the Polkadot/Kusama ecosystem? 
+
+[CoverMax](https://github.com/zalatar242/CoverMax-DeFi) also uses a tranch-based insurance protocol. However, as the original [research paper points out](https://arxiv.org/pdf/2212.10308), the design is too complex for regular users, given that they can buy insurance only for a fixed time, have to pay for it upfront, and constantly need to monitor the risk/collateralization.   
+
+- Are there any projects similar to yours in related ecosystems?
+
+[Nexus Mutual](https://nexusmutual.io/). 
 
 ## Team
 
