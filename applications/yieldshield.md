@@ -2,15 +2,14 @@
 
 ## Project Overview
 
-Your savings account is fully insured, you earn a small risk-free yield, and your bank gets rich. What if you could make high DeFi yields risk-free with a decentralized insurance protocol? That's exactly the problem that YieldShield solves. It's a decentralized, highly capital-efficient insurance protocol that uses a tranche-based risk allocation. It serves as the DeFi abstraction layer that makes decentralized finance usable for everyone and will disrupt traditional savings accounts.
+Your savings account is fully insured, you earn a small risk-free yield, and your bank gets rich. What if you could make high DeFi yields completely risk-free with a decentralized insurance protocol? 
+That's exactly the problem that YieldShield solves. It's a decentralized, highly capital-efficient insurance protocol that uses a tranche-based risk allocation. It serves as the DeFi abstraction layer that makes decentralized finance usable for everyone and will disrupt traditional savings accounts.
 
 <img src="../static/img/yieldshield1.png" alt="YieldShield" width="500"/>
 
-The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot to catch-up when it comes to DeFi. However, Polkadot has very few advantages and incentives at this stage for external teams to bring liquidity to Polkadot. We hope to be able to deploy YieldShiel on the hub and this way offer something unique and ultimatily significantly increase the TVL of Polkadot.   
+The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot to catch up when it comes to DeFi. However, Polkadot has very few advantages and incentives at this stage for external teams to bring liquidity to Polkadot. We hope to be able to deploy YieldShiel on the Hub and this way offer something unique and ultimately significantly increase the TVL of Polkadot.   
 
 ### Project Details
-
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
 - Technology stack: Solidity, Ponder, Next.js 
 - Documentation: https://www.yieldshield.dev/docs/overview 
@@ -21,17 +20,20 @@ We expect the teams to already have a solid idea about your project's expected f
 <img src="../static/img/ys-ui3.png" alt="YieldShield" width="500"/>
 <img src="../static/img/ys-ui4.png" alt="YieldShield" width="500"/>
 
-- What your project is *not* or will *not* provide or implement: 
+- What your project is *not* or will *not* provide or implement:
 
+YieldShield relies on yield-generating protocols like Morpho, Aave, etc. that can be integrated into YieldShield via recipe tokens. Theoretically, these tokens can also be bridged to Polkadot, but ideally, the protocols will be deployed on the hub itself. 
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
 - Where and how does your project fit into the ecosystem?
 
+As pointed out above, YieldShield offers Polkadot a decentralized insurance protocol, which is something unique in the DeFi space and will attract additional users. So far, only https://flyingtulip.com/ plans to integrate a [decentralized insurance solution](https://docs.flyingtulip.com/product-suite/ft-insurance/). However, YieldShield has the advantage of not relying on claim assessors or oracles for the claim process and is more capital efficient.    
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+
+
+  
 - What need(s) does your project meet?
 - How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
 - Are there any other projects similar to yours in the Polkadot/Kusama ecosystem? Make sure to at least check the [Polkadot Forum](https://forum.polkadot.network/), the [wiki's Tech Stack doc](https://wiki.polkadot.network/docs/build-open-source) and [OpenGov](https://polkadot.subsquare.io/referenda?status=executed&is_treasury=true).
