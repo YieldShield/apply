@@ -91,10 +91,15 @@ Previous interface iterations, such as mock-ups and wireframes:
 
 ### Overview
 
-- **Estimated Duration:** 2 Months
+- **Estimated Duration:** 3 Months
 - **Full-Time Equivalent (FTE):**  2 FTE
-- **Total Costs:** 18,000 USD
+- **Total Costs:** 24,000 USD
 
+### Milestone 1: Core Logic
+
+- **Estimated duration:** 2 months
+- **FTE:**  2
+- **Costs:** 16,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -107,6 +112,12 @@ Previous interface iterations, such as mock-ups and wireframes:
 | 2. | SplitRiskPoolFactory.sol | The factory contract for deploying and managing SplitRiskPool instances, including the necessary view functions, the logic to validate pools, and to create pools.  |
 | 3. | Next.js Front-end | We will develop a UI based on the above mock-ups that allows users to interact with the SplitRiskPool as well as the SplitRiskPoolFactory |
 | 3. | Deployment| The smart contract will be deployed on either the Polkadot Hub test network or, if any issues arise, on the Moonbeam test network. The front-end will directly interact with the deployed testnet version |
+
+### Milestone 2: Ponder
+
+- **Estimated duration:** 1 months
+- **FTE:**  2
+- **Costs:** 8,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
