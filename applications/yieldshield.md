@@ -87,8 +87,6 @@ Previous interface iterations, such as mock-ups and wireframes:
 
 ## Development Roadmap
 
-**Please notice that Polkadot Open Source Grants only accept projects up to 3 months of duration and up to 2 milestones.**
-
 ### Overview
 
 - **Estimated Duration:** 3 Months
@@ -110,7 +108,7 @@ Previous interface iterations, such as mock-ups and wireframes:
 | 0e. | Article | We will publish an **article** that explains how users on Polkadot are able to use the product in the future. |
 | 1. | SplitRiskPool.sol | We will create a Solidity smart contract that has two withdrawal and two deposit functions, one each for users and one for underwriters. The smart contract splits the risk into insured tokens that can be immediately withdrawn at any time and underwriter tokens that earn an additional commission but have a 28-day lock-in period before they can be withdrawn. The smart contract will be thoroughly tested and implement various security measures (such as SafeERC20, OpenZeppelin Math, ReentrancyGuard, etc.), as well as the necessary view functions for the UI, and the ability to set limits for maximum and minimum withdrawals. Additionally, tokens need to be whitelisted for SplitRiskPool.sol   |
 | 2. | SplitRiskPoolFactory.sol | The factory contract for deploying and managing SplitRiskPool instances, including the necessary view functions, the logic to validate pools, and to create pools.  |
-| 3. | Next.js Front-end | We will develop a UI based on the above mock-ups that allows users to interact with the SplitRiskPool as well as the SplitRiskPoolFactory |
+| 3. | Next.js Front-end | We will develop a UI based on the above mock-ups that allows users to interact with the SplitRiskPool as well as the SplitRiskPoolFactory. The charts will initially serve as placeholders. |
 | 3. | Deployment| The smart contract will be deployed on either the Polkadot Hub test network or, if any issues arise, on the Moonbeam test network. The front-end will directly interact with the deployed testnet version |
 
 ### Milestone 2: Ponder
@@ -125,10 +123,10 @@ Previous interface iterations, such as mock-ups and wireframes:
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#documentation) for details. |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#testing-guide) for details. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | SplitRiskPool.sol | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | SplitRiskPoolFactory.sol | The Y Substrate module will... |
-| 3. | Next.js Front-end | X and Y of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
+| 0e. | Article | We will publish an **article** that explains how to use ponder for a Polkadot Hub or Moonbeam project |
+| 1. | Ponder | We will integrate https://ponder.sh/ into the project and implement the indexing solution. |
+| 2. | Next.js Front-end | The front-end will no longer query data from the RPC node, but rather rely on the indexing solution. |
+| 3. | Deployment| The smart contract will be deployed on either the Polkadot Hub test network or, if any issues arise, on the Moonbeam test network. The indexer will index events from the smart contract deployed on the testnet. |
 
 ### Budget Breakdown (Example, please adapt)
  **Category:** Budget Breakdown positions are split within the following categories: 
