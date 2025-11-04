@@ -128,7 +128,7 @@ Previous interface iterations, such as mock-ups and wireframes:
 | 2. | Next.js Front-end | The front-end will no longer query data from the RPC node, but rather rely on the indexing solution. It will be able to show diagrams |
 | 3. | Deployment| The smart contract will be deployed on either the Polkadot Hub test network or, if any issues arise, on the Moonbeam test network. The indexer will index events from the smart contract deployed on the testnet. |
 
-### Budget Breakdown (Example, please adapt)
+### Budget Breakdown 
 
 
 | Category | Item | Cost | Amount | Total | Description |
