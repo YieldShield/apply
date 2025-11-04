@@ -59,7 +59,7 @@ Reducing the risk that is associated with DeFi.
 
 ### Team members
 
-#### LinkedIn Profiles (if available)
+#### LinkedIn Profiles 
 
 - https://www.linkedin.com/in/david-hawig-206a44b1/
 - (happy to share the other members on a call or via email)
@@ -74,12 +74,11 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team's experience
 
-David Hawig worked for the Web3 Foundation for over six years and actually created the initial version of this template. All members of the team have a lot of knowledge about the Polkadot.  
+David Hawig worked for the Web3 Foundation for over six years and was responsible for creating the initial version of this template. All team members possess extensive knowledge of Polkadot.  
 
 ## Development Status
 
 Academic publications relevant to the problem: 
-- https://www.accenture.com/content/dam/accenture/final/industry/banking/document/Accenture-Global-Banking-Consumer-Study-2025-Report.pdf
 - https://arxiv.org/pdf/2212.10308
 - https://arxiv.org/pdf/2410.09341
   
@@ -96,7 +95,6 @@ Previous interface iterations, such as mock-ups and wireframes:
 - **Full-Time Equivalent (FTE):**  2 FTE
 - **Total Costs:** 18,000 USD
 
-> Note that deliverables 0a to 0e are mandatory. Please adapt their specification to your project.
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -104,11 +102,11 @@ Previous interface iterations, such as mock-ups and wireframes:
 | 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#documentation) for details. |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#testing-guide) for details. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Pallet X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Smart contract Y | The Y Substrate module will... |
-| 3. | Substrate chain | X and Y of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 4. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
+| 0e. | Article | We will publish an **article** that explains how users on Polkadot are able to use the product in the future. |
+| 1. | SplitRiskPool.sol | We will create a Solidity smart contract that has two withdrawal and two deposit functions, one each for users and one for underwriters. The smart contract splits the risk into insured tokens that can be immediately withdrawn at any time and underwriter tokens that earn an additional commission but have a 28-day lock-in period before they can be withdrawn. The smart contract will be thoroughly tested and implement various security measures (such as SafeERC20, OpenZeppelin Math, ReentrancyGuard, etc.), as well as the necessary view functions for the UI, and the ability to set limits for maximum and minimum withdrawals. Additionally, tokens need to be whitelisted for SplitRiskPool.sol   |
+| 2. | SplitRiskPoolFactory.sol | The factory contract for deploying and managing SplitRiskPool instances, including the necessary view functions, the logic to validate pools, and to create pools.  |
+| 3. | Next.js Front-end | We will develop a UI based on the above mock-ups that allows users to interact with the SplitRiskPool as well as the SplitRiskPoolFactory |
+| 3. | Deployment| The smart contract will be deployed on either the Polkadot Hub test network or, if any issues arise, on the Moonbeam test network. The front-end will directly interact with the deployed testnet version |
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -117,10 +115,9 @@ Previous interface iterations, such as mock-ups and wireframes:
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#testing-guide) for details. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Pallet X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Smart contract Y | The Y Substrate module will... |
-| 3. | Substrate chain | X and Y of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 4. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
+| 1. | SplitRiskPool.sol | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
+| 2. | SplitRiskPoolFactory.sol | The Y Substrate module will... |
+| 3. | Next.js Front-end | X and Y of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
 
 ### Budget Breakdown (Example, please adapt)
  **Category:** Budget Breakdown positions are split within the following categories: 
