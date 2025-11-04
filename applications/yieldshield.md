@@ -96,7 +96,7 @@ Previous interface iterations, such as mock-ups and wireframes:
 ### Milestone 1: Core Logic
 
 - **Estimated duration:** 2 months
-- **FTE:**  2
+- **FTE:**  1
 - **Costs:** 16,000 USD
 
 | Number | Deliverable | Specification |
@@ -106,7 +106,7 @@ Previous interface iterations, such as mock-ups and wireframes:
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#testing-guide) for details. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** that explains how users on Polkadot are able to use the product in the future. |
-| 1. | SplitRiskPool.sol | We will create a Solidity smart contract that has two withdrawal and two deposit functions, one each for users and one for underwriters. The smart contract splits the risk into insured tokens that can be immediately withdrawn at any time and underwriter tokens that earn an additional commission but have a 28-day lock-in period before they can be withdrawn. The smart contract will be thoroughly tested and implement various security measures (such as SafeERC20, OpenZeppelin Math, ReentrancyGuard, etc.), as well as the necessary view functions for the UI, and the ability to set limits for maximum and minimum withdrawals. Additionally, tokens need to be whitelisted for SplitRiskPool.sol   |
+| 1. | SplitRiskPool.sol | We will create a Solidity smart contract that has two withdrawal and two deposit functions, one each for users and one for underwriters. The smart contract divides the risk into insured tokens, which can be immediately withdrawn at any time, and underwriter tokens, which earn an additional commission but have a 28-day lock-in period before they can be withdrawn. The smart contract will be thoroughly tested and implement various security measures (such as SafeERC20, OpenZeppelin Math, ReentrancyGuard, etc.), as well as the necessary view functions for the UI, and the ability to set limits for maximum and minimum withdrawals. Additionally, tokens need to be whitelisted for SplitRiskPool.sol   |
 | 2. | SplitRiskPoolFactory.sol | The factory contract for deploying and managing SplitRiskPool instances, including the necessary view functions, the logic to validate pools, and to create pools.  |
 | 3. | Next.js Front-end | We will develop a UI based on the above mock-ups that allows users to interact with the SplitRiskPool as well as the SplitRiskPoolFactory. The charts will initially serve as placeholders. |
 | 3. | Deployment| The smart contract will be deployed on either the Polkadot Hub test network or, if any issues arise, on the Moonbeam test network. The front-end will directly interact with the deployed testnet version |
@@ -114,31 +114,27 @@ Previous interface iterations, such as mock-ups and wireframes:
 ### Milestone 2: Ponder
 
 - **Estimated duration:** 1 months
-- **FTE:**  2
+- **FTE:**  1
 - **Costs:** 8,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense. See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#license) for details. |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#documentation) for details. |
+| 0a. | License | GPLv3  |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can. |
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#testing-guide) for details. |
 | 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article** that explains how to use ponder for a Polkadot Hub or Moonbeam project |
-| 1. | Ponder | We will integrate https://ponder.sh/ into the project and implement the indexing solution. |
-| 2. | Next.js Front-end | The front-end will no longer query data from the RPC node, but rather rely on the indexing solution. |
+| 0e. | Article | We will publish an **article** that explains how to use Ponder for a Polkadot Hub or Moonbeam project |
+| 1. | Ponder | We will integrate https://ponder.sh/ into the project and implement the indexing solution to index all events. |
+| 2. | Next.js Front-end | The front-end will no longer query data from the RPC node, but rather rely on the indexing solution. It will be able to show diagrams |
 | 3. | Deployment| The smart contract will be deployed on either the Polkadot Hub test network or, if any issues arise, on the Moonbeam test network. The indexer will index events from the smart contract deployed on the testnet. |
 
 ### Budget Breakdown (Example, please adapt)
- **Category:** Budget Breakdown positions are split within the following categories: 
- 
-- Personnel
-- Equipment
+
 
 | Category | Item | Cost | Amount | Total | Description |
 | --- | ---- | --- | --- | --- | ---|
-| Personell | Full-Stack Developer | 8,000 USD | 0.5 FTE | 4,000 USD | leading project with tech architecture and design |
-| Personell | Smart Contract Developer | 10,000 USD | 1 FTE | 10,000 USD | focused on execution and implementation |
-| --- | --- | --- | **Total** | **14,000 USD** |  |
+| Personnel | Full-Stack Developer | 8,000 USD | 1 FTE | 24,000 USD | We estimate that one person works on this for three months |
+| --- | --- | --- | **Total** | **24,000 USD** |  |
 
 
 ## Future Plans
