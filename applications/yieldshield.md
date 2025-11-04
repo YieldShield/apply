@@ -3,11 +3,11 @@
 ## Project Overview
 
 Your savings account is fully insured, you earn a small risk-free yield, and your bank gets rich. What if you could make high DeFi yields completely risk-free with a decentralized insurance protocol? 
-That's exactly the problem that YieldShield solves. It's a decentralized, highly capital-efficient insurance protocol that uses a tranche-based risk allocation. It serves as the DeFi abstraction layer that makes decentralized finance usable for everyone and will disrupt traditional savings accounts.
+That's exactly the problem that YieldShield solves. It's a decentralized, highly capital-efficient insurance protocol that uses a tranche-based risk allocation. It serves as the DeFi abstraction layer, making decentralized finance usable for everyone, and will disrupt traditional savings accounts.
 
 <img src="../static/img/yieldshield1.png" alt="YieldShield" width="500"/>
 
-The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot to catch up when it comes to DeFi. However, Polkadot has very few advantages and incentives at this stage for external teams to bring liquidity to Polkadot. We hope to be able to deploy YieldShiel on the Hub and this way offer something unique and ultimately significantly increase the TVL of Polkadot.   
+The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot catch up when it comes to DeFi. However, Polkadot currently offers very few advantages and incentives for external teams to bring liquidity to the network. We plan to deploy YieldShiel on the Hub, offering something unique and significantly increasing the TVL of Polkadot.   
 
 ### Project Details
 
@@ -22,17 +22,17 @@ The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot to ca
 
 - What your project is *not* or will *not* provide or implement:
 
-YieldShield relies on yield-generating protocols like Morpho, Aave, etc. that can be integrated into YieldShield via recipe tokens. Theoretically, these tokens can also be bridged to Polkadot, but ideally, the protocols will be deployed on the hub itself. 
+YieldShield relies on yield-generating protocols like Morpho, Aave, etc., that can be integrated into YieldShield via recipe tokens. Theoretically, these tokens can also be bridged to Polkadot, but ideally, the protocols will be deployed on the hub itself. 
 
 ### Ecosystem Fit
 
 - Where and how does your project fit into the ecosystem?
 
-As pointed out above, YieldShield offers Polkadot a decentralized insurance protocol, which is something unique in the DeFi space and will attract additional users. So far, only https://flyingtulip.com/ plans to integrate a [decentralized insurance solution](https://docs.flyingtulip.com/product-suite/ft-insurance/). However, YieldShield has the advantage of not relying on centralized claim assessors or oracles for the claim process and is more capital-efficient.    
+As pointed out above, YieldShield offers Polkadot a decentralized insurance protocol, which is a unique feature in the DeFi space and will likely attract additional users. So far, only https://flyingtulip.com/ plans to integrate a [decentralized insurance solution](https://docs.flyingtulip.com/product-suite/ft-insurance/). However, YieldShield has the advantage of not relying on centralized claim assessors or oracles for the claim process and is more capital-efficient.    
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-Initially, we will target crypto users who are not DeFi degens. Essentially, users who know how to interact with a chain, but don't invest in DeFi vaults and strategies, because they don't understand the underlying risks. In the future, we want to cooperate with wallet providers, crypto neo banks, etc.   
+Initially, we will target crypto users who are not DeFi degens. Essentially, users who know how to interact with a chain, but don't invest in DeFi vaults and strategies, because they don't understand the underlying risks. In the future, we aim to collaborate with wallet providers, crypto neo-banks, and other relevant entities.   
   
 - What need(s) does your project meet?
 
@@ -48,11 +48,9 @@ Reducing the risk that is associated with DeFi.
 
 - Are there any projects similar to yours in related ecosystems?
 
-[Nexus Mutual](https://nexusmutual.io/). 
+[Nexus Mutual](https://nexusmutual.io/) is the only insurance protocol that remains operational. However, they are relatively centralized, operate one big pool, and they depend on claim assessors to decide on a claim.  
 
 ## Team
-
-> Please note that the data provided in this section is for administrative and informational purposes only. All beneficiaries of a grant must also be listed in the KYC/KYB process during the application phase.
 
 - **Team Name:** YieldShield
 - **Contact Name:** David Hawig
@@ -76,7 +74,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ### Team's experience
 
-Please describe the team's relevant experience, such as Polkadot-related projects in progress or contributions to the ecosystem made by team members in the past.
+David Hawig worked for the Web3 Foundation for over six years and actually created the initial version of this template. All members of the team have a lot of knowledge about the Polkadot.  
 
 ## Development Status
 
@@ -90,17 +88,27 @@ Previous interface iterations, such as mock-ups and wireframes:
 
 ## Development Roadmap
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected. Below, we provide an **example milestone** with mandatory (0a to 0e) and example deliverables. 
-
 **Please notice that Polkadot Open Source Grants only accept projects up to 3 months of duration and up to 2 milestones.**
 
 ### Overview
 
-- **Estimated Duration:** 3 Months
+- **Estimated Duration:** 2 Months
 - **Full-Time Equivalent (FTE):**  2 FTE
 - **Total Costs:** 18,000 USD
 
 > Note that deliverables 0a to 0e are mandatory. Please adapt their specification to your project.
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | GPLv3 |
+| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can... See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#documentation) for details. |
+| 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://github.com/PolkadotOpenSourceGrants/delivery/blob/master/delivery-guidelines.md#testing-guide) for details. |
+| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
+| 1. | Pallet X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
+| 2. | Smart contract Y | The Y Substrate module will... |
+| 3. | Substrate chain | X and Y of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
+| 4. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -129,16 +137,8 @@ This section should break the development roadmap down into milestones and deliv
 
 ## Future Plans
 
-Please include here
-
-- how you intend to finance the project's long-term maintenance and development,
-- how you intend to use, enhance, and promote your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+We are currently in the process of raising an angel round and plan to follow up with a seed round. The protocol itself will charge a small fee in the future that will long-term finance it. The project will mostly be promoted via cooperation with other protocols that we integrate with or teams that benefit from our services. 
 
 ## Additional Information
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done
-- If there are any other teams who have already contributed (financially) to the project
-- Please declare if you have submitted this product for funding to any other entities, wether you got funded, how much you got funded, and provide any other relevant details.
+We haven't received any other funding so far, and want to deploy also on Polkadot simply because of our knowledge of the ecosystem. 
