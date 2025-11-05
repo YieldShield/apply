@@ -5,7 +5,7 @@
 Your savings account is fully insured, you earn a small risk-free yield, and your bank gets rich. What if you could make high DeFi yields completely risk-free with a decentralized insurance protocol? 
 That's exactly the problem that YieldShield solves. It's a decentralized, highly capital-efficient insurance protocol that uses a tranche-based risk allocation. It serves as the DeFi abstraction layer, making decentralized finance usable for everyone, and will disrupt traditional savings accounts.
 
-<img src="../static/img/yieldshield1.png" alt="YieldShield" width="500"/>
+<img src="https://i.postimg.cc/KjJZ0nXJ/yieldshield1.png" alt="YieldShield" width="500"/>
 
 The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot catch up when it comes to DeFi. However, Polkadot currently offers very few advantages and incentives for external teams to bring liquidity to the network. YieldShield on the Hub, offering a unique user experience and significantly increasing the TVL of Polkadot.   
 
@@ -15,10 +15,10 @@ The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot catch
 - Documentation: https://www.yieldshield.dev/docs/overview 
 - Mockups/designs of any UI components
 
-<img src="../static/img/ys-ui1.png" alt="YieldShield" width="500"/>
-<img src="../static/img/ys-ui2.png" alt="YieldShield" width="500"/>
-<img src="../static/img/ys-ui3.png" alt="YieldShield" width="500"/>
-<img src="../static/img/ys-ui4.png" alt="YieldShield" width="500"/>
+<img src="https://i.postimg.cc/ZYcKYh9W/ys-ui1.png" alt="YieldShield" width="500"/>
+<img src="https://i.postimg.cc/jqXdqrWL/ys-ui2.png" alt="YieldShield" width="500"/>
+<img src="https://i.postimg.cc/WpnbpPDk/ys-ui3.png" alt="YieldShield" width="500"/>
+<img src="https://i.postimg.cc/CMNLMVZG/ys-ui4.png" alt="YieldShield" width="500"/>
 
 - What your project is *not* or will *not* provide or implement:
 
