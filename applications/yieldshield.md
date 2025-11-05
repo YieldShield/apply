@@ -90,7 +90,7 @@ Previous interface iterations, such as mock-ups and wireframes:
 ### Overview
 
 - **Estimated Duration:** 3 Months
-- **Full-Time Equivalent (FTE):**  2 FTE
+- **Full-Time Equivalent (FTE):**  1 FTE
 - **Total Costs:** 24,000 USD
 
 ### Milestone 1: Core Logic
