@@ -22,7 +22,7 @@ The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot catch
 
 - What your project is *not* or will *not* provide or implement:
 
-YieldShield relies on yield-generating protocols like Morpho, Aave, etc., that can be integrated into YieldShield via recipe tokens. Theoretically, these tokens can also be bridged to Polkadot, but ideally, the protocols will be deployed on the hub itself. 
+YieldShield relies on yield-generating protocols like Morpho, Aave, etc., that can be integrated into YieldShield via receipt tokens. Theoretically, these tokens can also be bridged to Polkadot, but ideally, the protocols will be deployed on the hub itself. 
 
 ### Ecosystem Fit
 
