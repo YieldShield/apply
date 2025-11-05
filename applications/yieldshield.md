@@ -7,7 +7,7 @@ That's exactly the problem that YieldShield solves. It's a decentralized, highly
 
 <img src="../static/img/yieldshield1.png" alt="YieldShield" width="500"/>
 
-The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot catch up when it comes to DeFi. However, Polkadot currently offers very few advantages and incentives for external teams to bring liquidity to the network. We plan to deploy YieldShiel on the Hub, offering something unique and significantly increasing the TVL of Polkadot.   
+The upcoming deployment of the REVM on the Polkadot Hub will help Polkadot catch up when it comes to DeFi. However, Polkadot currently offers very few advantages and incentives for external teams to bring liquidity to the network. YieldShield on the Hub, offering a unique user experience and significantly increasing the TVL of Polkadot.   
 
 ### Project Details
 
@@ -28,11 +28,11 @@ YieldShield relies on yield-generating protocols like Morpho, Aave, etc., that c
 
 - Where and how does your project fit into the ecosystem?
 
-As pointed out above, YieldShield offers Polkadot a decentralized insurance protocol, which is a unique feature in the DeFi space and will likely attract additional users. So far, only https://flyingtulip.com/ plans to integrate a [decentralized insurance solution](https://docs.flyingtulip.com/product-suite/ft-insurance/). However, YieldShield has the advantage of not relying on centralized claim assessors or oracles for the claim process and is more capital-efficient.    
+YieldShield offers Polkadot a decentralized insurance protocol, which is a unique feature in the DeFi space and will likely attract additional users. So far, only [Flying Tulip](https://flyingtulip.com/) plans to integrate a [decentralized insurance solution](https://docs.flyingtulip.com/product-suite/ft-insurance/). However, YieldShield has the advantage of not relying on centralized claim assessors or oracles for the claim process and is more capital-efficient. Besides this, YieldShield will be compatible with the upcoming Polkadot Stablecoin and the DeFi products that will integrate it. That way, YieldShield will offer Polkadot users the ability to insure their PUSD and earn yield safely. Finally, YieldShield is also compatible with the products offered in Hydration, as they have a similar receipt token structure to Aave. 
 
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
 
-Initially, we will target crypto users who are not DeFi degens. Essentially, users who know how to interact with a chain, but don't invest in DeFi vaults and strategies, because they don't understand the underlying risks. In the future, we aim to collaborate with wallet providers, crypto neo-banks, and other relevant entities.   
+The initial target will be crypto users who are not DeFi degens. Essentially, users who know how to interact with a chain, but don't invest in DeFi vaults and strategies, because they don't understand the underlying risks. In the future, we aim to collaborate with wallet providers, crypto neo-banks, and other relevant entities.   
   
 - What need(s) does your project meet?
 
@@ -143,4 +143,4 @@ We are currently in the process of raising an angel round and plan to follow up 
 
 ## Additional Information
 
-We haven't received any other funding so far, and want to deploy also on Polkadot simply because of our knowledge of the ecosystem. 
+We haven't received any other funding so far, and want to deploy also on Polkadot simply because of our knowledge of the ecosystem. We believe the upcoming DeFi ecosystem in Hub will significantly benefit from a secure insurance protocol like YieldShield.
